@@ -1,0 +1,226 @@
+/*----------Général----------*/
+
+body {
+	font-family: "arial", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "courgette", cursive;
+}
+
+/*----------Header----------*/
+
+/*Barre de navigation*/
+nav {
+
+/*éléments centrés en collapse*/
+	text-align: center;
+	background-color: #C55394;
+	padding: 0 !important;
+}
+
+/*Titre*/
+nav > a {
+	font-family: "courgette", cursive;
+	font-size: 1.5em !important;
+	color: #fff !important;
+	padding: 0;
+	margin-left: 15px;
+}
+
+/*Bouton mobile*/
+nav > button {
+    border-style: none !important;
+    padding: 0.5em;
+}
+
+/*Icône du bouton mobile*/
+nav > button > span {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+/*Menu de navigation*/
+nav #navbar-menu {
+	justify-content: flex-end;
+}
+
+/*Liens*/
+nav #navbar-menu > ul > li > a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	margin-right: 20px;
+	padding: 25px;
+	transition: all 1s;
+}
+
+/*Liens survolés*/
+nav #navbar-menu > ul > li > a:hover {
+	background: #EB43A3;
+}
+
+/*----------Main----------*/
+
+/*Images de fond*/
+main {
+	background-image: url("../img/rainbow.png"), url("../img/background.png");
+	background-repeat: no-repeat, repeat;
+	background-position: center 30px;
+	padding: 0 1em 3em !important;
+}
+
+/*Titre de la page*/
+main > h1 {
+	text-align: center;
+	color: #C55394;
+	font-size: 2em;
+	padding-top: 100px;
+	font-weight: bold;
+}
+
+/*Section*/
+section {
+	margin-top: 3em;
+	padding: 4em 2.8em !important;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px 2px #ccc;
+}
+
+/*Marge du bas des articles*/
+article {
+	margin-bottom: 3em;
+}
+
+/*Titre des articles*/
+article > h2 {
+	display: inline-block;
+	margin-bottom: 20px;
+	font-size: 22px;
+	color: #EB43A3;
+}
+
+/*Icône du titre des articles*/
+article > h2 > i.fa {
+	margin-right: 10px;
+}
+
+/*Paragraphes des articles*/
+article p {
+	font-size: 14px;
+}
+
+/*-----Nos licornes-----*/
+
+
+/*Figures*/
+article#unicorns figure {
+	transition: ease 1.2s;
+	margin: 0 0 1.5em 0;
+	/*Permet de positionner figcaption par rapport à son premier parent relatif donc figure*/
+	position: relative;
+	/*Permet de rogner img lors du hover et de son changement de taille*/
+	overflow: hidden;
+}
+
+/*Images*/
+article#unicorns figure > img {
+	width: 100%;
+	transition: ease 1.2s;
+}
+
+/*Survol des images*/
+article#unicorns figure > img:hover {
+	transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+}
+
+/*Légende des images*/
+article#unicorns figure > figcaption {
+	margin-bottom: 0;
+	background: rgba(3, 3, 3, 0.85);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	/*Permet de positionner figcaption par rapport à son premier parent relatif -> figure*/
+	position: absolute;
+	/*Positionner figcaption en bas de figure*/
+	bottom: 0;
+}
+
+/*Paragraphe de la légende des images*/
+article#unicorns figure > figcaption > p {
+	margin: 0;
+}
+
+/*-----Nous contacter-----*/
+
+/*Google map*/
+article#contact iframe {
+	width: 100%;
+	height: 400px;
+}
+
+article#contact h3 {
+	font-size: 16px;
+	color: #EB43A3;
+	font-weight: bold;
+}
+
+article#contact p {
+	margin: 0;
+}
+
+article#contact #address {
+	margin-top: 15px;
+}
+
+article#contact #newsletter {
+	margin-top: 30px;
+}
+
+/*Input et Bouton de la newsletter*/
+article#contact #newsletter > form > input, article#contact #newsletter > form > button  {
+	margin-top: 15px;
+}
+
+article#contact #newsletter > form > input {
+	width: 50%;
+}
+
+article#contact #newsletter > form > button {
+	color: white;
+	background-color: #EB43A3;
+	border-color: #EB43A3;
+	transition: all 1s;
+}
+
+/*Survol du bouton Valider*/
+article#contact #newsletter > form > button:hover {
+	color: #EB43A3;
+	background-color: white;
+}
+
+/*----------Footer----------*/
+
+footer {
+	background-color: #E577B5;
+	color: white;
+	font-weight: bold;
+	height: 50px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+footer p {
+	margin: 0;
+	font-size: 0.9em;
+}

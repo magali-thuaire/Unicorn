@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <!--Titre de l'onglet-->
+        <title>MyUnicorn</title>
+        <!-- Utilisation de l'unicode -->
+        <meta charset="UTF-8">
+        <!-- Utilisation des meta -->
+        <meta name="author" content="Magali THUAIRE">
+        <!-- Utilisation du responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Police -->
+        <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Icônes-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--CSS local-->
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+        <header>
+            <!-- Barre de navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <!-- Titre -->
+                <a href="index.html" class="navbar-brand">MyUnicorn</a>
+                <!-- Bouton burger -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu de navigation -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#principle">Le principe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#unicorns">Nos licornes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Nous trouver</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>        
+        </header>
+
+        <main>
+            <h1>Un jour, une licorne</h1>
+
+            <section class="container">
+
+                <!-- Le principe -->
+                <article id="principle">
+                    <h2><i class="fa fa-star-o"></i>Le principe</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus ante, eu aliquam ante euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc malesuada ex ut ipsum interdum vestibulum. Integer facilisis finibus orci, sit amet pretium diam placerat vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget semper risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo leo, ut cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales sollicitudin sodales. Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget porttitor. Proin rhoncus risus non mauris iaculis sodales. Pellentesque euismod dui erat, non sodales ipsum sollicitudin sed.</p>
+                    <p>Donec nisi eros, luctus id pretium eget, consequat elementum risus. Fusce eleifend lacinia orci eu iaculis. Vestibulum vestibulum justo quis commodo congue. Aliquam purus leo, dictum in nisl at, pellentesque bibendum mi. Nulla convallis mi eget nisl convallis dictum. Vestibulum a massa lacus. Aenean quis enim diam.</p>
+                </article>
+
+                <!-- Nos licornes -->
+                <article id="unicorns">
+                    <h2><i class="fa fa-star-o"></i>Nos licornes</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <figure>
+                                <img src=img/unicorns/photo1.jpg alt="">
+                                <figcaption>
+                                    <p>Lulu Confetty</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <figure>
+                                <img src=img/unicorns/photo2.jpg alt="">
+                                <figcaption>
+                                    <p>Lapillon Magik</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <figure>
+                                <img src=img/unicorns/photo3.jpg alt="">
+                                <figcaption>
+                                    <p>El Ninjacorn</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <figure>
+                                <img src=img/unicorns/photo4.jpg alt="">
+                                <figcaption>
+                                    <p>Sweety Candy</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Nous trouver -->
+                <article id="contact">
+                    <!-- Titre -->
+                    <h2><i class="fa fa-star-o"></i>Nous trouver</h2>
+                    <!-- 2 colonnes -->
+                    <div class="row">
+                        <!-- colonne 1 : google map -->
+                        <div class="col-12 col-lg-7 ">
+                            <iframe
+                                style="border:0"
+                                src="https://www.google.com/maps/embed/v1/place?q=web%20force%203%20paris&key=AIzaSyAExkU0HWgXmtHFi9g1jF1jhgq8Aw3P0Ms"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <!-- colonne 2 : adresse et newsletter -->
+                        <div class="col-12 col-lg-5">
+                            <!-- Adresse -->
+                            <div id=address>
+                                <h3>Notre élevage de licornes est situé au :</h3>
+                                <p>18 Rue Geoffroy l'Asnier</p>
+                                <p>75004 Paris</p>
+                                <p>01.23.45.67.89</p>
+                            </div>
+                            <!-- Formulaire de contact : newsletter -->
+                            <div id="newsletter">
+                                <h3>Newsletter</h3>
+                                <p>Abonnez-vous simplement à notre newsletter mensuelle !</p>
+                                <form action="newsletter.php" id="contact-form" method="post">
+                                    <input type="email" class="form-control" id="email" placeholder="votre@email.fr" required>
+                                    <button type="submit" class="btn" id="submit">Valider</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>2018 - Magali THUAIRE @WebForce3 Dijon</p>
+        </footer>
+
+        <!-- Bootstrap JS-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
